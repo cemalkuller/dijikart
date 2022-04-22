@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Faturalar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invoice_number": {
+      "type": "text"
+    },
+    "price": {
+      "type": "text"
+    },
+    "tax": {
+      "type": "text"
+    },
+    "invoice_date": {
+      "type": "date"
+    }
+  }
+}

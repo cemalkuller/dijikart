@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companys",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companys",
+    "displayName": "Kurumlar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "owner_title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

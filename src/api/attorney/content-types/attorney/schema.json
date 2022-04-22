@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attorneys",
+  "info": {
+    "singularName": "attorney",
+    "pluralName": "attorneys",
+    "displayName": "Vekaletnameler"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lavyer": {
+      "type": "text"
+    },
+    "identfy": {
+      "type": "integer"
+    },
+    "bar_association": {
+      "type": "text"
+    },
+    "bar_association_number": {
+      "type": "text"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}
