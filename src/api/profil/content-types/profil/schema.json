@@ -4,7 +4,8 @@
   "info": {
     "singularName": "profil",
     "pluralName": "profils",
-    "displayName": "Profil"
+    "displayName": "Profil",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "first_name": {
       "type": "text",
@@ -37,6 +39,12 @@
     },
     "resume": {
       "type": "richtext"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "profile"
     }
   }
 }
