@@ -396,6 +396,9 @@
                               "status": {
                                 "type": "boolean"
                               },
+                              "deneme": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1352,6 +1355,9 @@
                             "status": {
                               "type": "boolean"
                             },
+                            "deneme": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1838,6 +1844,9 @@
                       "status": {
                         "type": "boolean"
                       },
+                      "deneme": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2274,6 +2283,9 @@
                             },
                             "status": {
                               "type": "boolean"
+                            },
+                            "deneme": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -3140,6 +3152,9 @@
                             "status": {
                               "type": "boolean"
                             },
+                            "deneme": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3636,6 +3651,9 @@
                       },
                       "status": {
                         "type": "boolean"
+                      },
+                      "deneme": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

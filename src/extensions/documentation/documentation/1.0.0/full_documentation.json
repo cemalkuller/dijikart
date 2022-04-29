@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-29T04:46:08.192Z"
+    "x-generation-date": "2022-04-29T06:31:56.404Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2867,6 +2867,9 @@
                               "status": {
                                 "type": "boolean"
                               },
+                              "deneme": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3823,6 +3826,9 @@
                             "status": {
                               "type": "boolean"
                             },
+                            "deneme": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4309,6 +4315,9 @@
                       "status": {
                         "type": "boolean"
                       },
+                      "deneme": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -4745,6 +4754,9 @@
                             },
                             "status": {
                               "type": "boolean"
+                            },
+                            "deneme": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -5611,6 +5623,9 @@
                             "status": {
                               "type": "boolean"
                             },
+                            "deneme": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -6107,6 +6122,9 @@
                       },
                       "status": {
                         "type": "boolean"
+                      },
+                      "deneme": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
