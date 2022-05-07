@@ -1,6 +1,9 @@
   module.exports = ({ env }) => ({
     // enable a plugin that doesn't require any configuration
     i18n: true,
+    'users-permissions': {
+      false: true,
+    },
     documentation: { 
       enabled: true, 
       config : {

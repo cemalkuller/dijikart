@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-29T06:38:33.359Z"
+    "x-generation-date": "2022-05-05T18:41:41.583Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -22,7 +22,8 @@
     "generateDefaultResponse": true,
     "plugins": [
       "email",
-      "upload"
+      "upload",
+      "users-permissions"
     ],
     "pluginsForWhichToGenerateDoc": [
       "email",
